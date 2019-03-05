@@ -16,7 +16,7 @@ class IndexActionTest extends ApiBaseTest
     {
         $url = '/index.php';
         $params = [
-            'message' => 'this is Index11',
+            'message' => 'this is Index Tests',
         ];
         $ret = $this->get($url, $params);
         $this->printJson($ret);
