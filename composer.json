@@ -1,0 +1,28 @@
+{
+  "name": "xstnet/api-tests",
+  "type": "extendtion",
+  "description": "Api Tests By phpunit",
+  "keywords": ["yii2", "alidayu", "sms", "telephone", "sdk"],
+  "homepage": "https://github.com/xstnet/api-tests",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chocoboxxf",
+      "email": "neil.xuxf@gmail.com",
+      "homepage": "https://github.com/xstnet",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "apitests\\tests\\": "apitests/tests"
+    }
+  }
+}
