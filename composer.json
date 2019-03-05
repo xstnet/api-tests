@@ -2,13 +2,13 @@
   "name": "xstnet/api-tests",
   "type": "extendtion",
   "description": "Api Tests By phpunit",
-  "keywords": ["yii2", "alidayu", "sms", "telephone", "sdk"],
+  "keywords": ["yii2", "tests", "api", "phpstorm"],
   "homepage": "https://github.com/xstnet/api-tests",
   "license": "MIT",
   "authors": [
     {
-      "name": "chocoboxxf",
-      "email": "neil.xuxf@gmail.com",
+      "name": "xstnet",
+      "email": "shantongxu@qq.com",
       "homepage": "https://github.com/xstnet",
       "role": "Developer"
     }
