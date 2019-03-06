@@ -50,6 +50,6 @@
 
 
   [1]: https://raw.githubusercontent.com/xstnet/api-tests/master/images/demo.gif
-  [2]: https://raw.githubusercontent.com/xstnet/api-tests/master/images/step-2.png
+  [2]: https://raw.githubusercontent.com/xstnet/api-tests/master/images/step-1.png
   [3]: https://raw.githubusercontent.com/xstnet/api-tests/master/images/step-2.png
   [4]: https://raw.githubusercontent.com/xstnet/api-tests/master/images/step-3.png
