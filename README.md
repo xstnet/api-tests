@@ -26,14 +26,14 @@
  ```
 
 5. 运行 `composer install`
-6. 运行 `composer dump-autoload`
-7. 将下面的代码添加到你自己的项目中`composer.json`中的 `autoload` 或者 `autoload-dev`, 如果已经有`psr-4`, 那么可以追加里面的内容
+6. 将下面的代码添加到你自己的项目中`composer.json`中的 `autoload` 或者 `autoload-dev`, 如果已经有`psr-4`, 那么可以追加里面的内容
 
  ```
   "psr-4": {
       "apitests\\tests\\": "apitests/tests"
   }
  ```
+8. 运行 `composer dump-autoload`
 8. 以上composer.json 配置文件可以参考`api-tests/composer.json`文件,**下面开始phpstorm的配置**
 9. 使用 `Ctrl+Alt+s`打开phpstorm的设置界面 依次展开`Languages & Frameworks->PHP`, 如下图![phstrom设置PHP环境变量][2] 
      **然后保存, 此时保存是为了方便等下设置phpunit的时候看到效果**
